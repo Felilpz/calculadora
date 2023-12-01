@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculadora {
+    width: 400px;
+    height: 600px;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #1e3050;
+    border-radius: 20px;
+}
+
+#bodyCalculator, #headCalculator {
+    width: 360px;
+    /* height: 20px; */
+}
+
+#headCalculator {
+    height: 120px;
+    
+    background-color: #0F1926;
+    border-radius: 10px;
+
+    margin-top: 30px;
+}
+
