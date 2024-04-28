@@ -40,8 +40,8 @@ function handleSymbol(symbol) {
             if (buffer.length === 1) {
                 buffer = '0';
             } else {
-                buffer = buffer.toString(0, buffer.length - 1);
-            }
+                buffer = buffer.slice(0, buffer.length - 1)
+            };
             console.log('ativou')
             break;
         case '+':
